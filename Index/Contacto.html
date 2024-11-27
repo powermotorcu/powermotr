@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <div id="menu" class="responsive">
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()" id="menuToggle">&#9776;</a>
+        <a href="Inicio.html">Inicio</a>
+        <a href="acerca de.html">Acerca de</a>
+        <a href="Contacto.html">Contacto</a>
+    </div>
+
+    <div style="padding: 20px;"><div class="tow">
+        <h1 >Bienvenido a POWER MOTOR</h1>
+        <p>¡Explora nuestras increíbles ofertas y motos!</p>
+    </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.className === "responsive") {
+                menu.className += " active";
+            } else {
+                menu.className = "responsive";
+            }
+        }
+    </script>
+
+    <h2>Contacto</h2>
+
+    <p>Estamos aquí para ayudarte. Si tienes alguna pregunta, comentario o necesitas más información sobre nuestras motos y servicios, no dudes en ponerte en contacto con nosotros. A continuación, tienes varias formas de hacerlo:</p>
+    
+    <!-- <h3>Dirección</h3>
+    <p>Visítanos en:</p> -->
+    <h2><strong>Power Motor</strong><br></h2>
+      <b>Shop Online</b>
+    </p>
+    
+    <h3>Teléfono</h3>
+    <p>Para consultas rápidas, llámanos al:
+        solo llamar por Whatsapp no llamadas normales
+    </p>
+    <p><strong>+1 (682) 293-4236</strong></p>
+    
+    <h3>Correro Electrónico</h3>
+    <p>Envíanos un correo electrónico a:</p>
+    <p><strong>powermotorcu@gmail.com</strong></p>
+    
+    <!-- <h3>Redes Sociales</h3>
+    <p>Síguenos en nuestras redes sociales para estar al día con las últimas novedades, ofertas y consejos sobre motos:</p>
+    <ul>
+        <li><strong>Facebook:</strong> facebook.com/tunombredetienda</li>
+        <li><strong>Instagram:</strong> instagram.com/tunombredetienda</li>
+        <li><strong>Twitter:</strong> twitter.com/tunombredetienda</li>
+    </ul> -->
+    
+    <h3>Formulario de Contacto</h3>
+    <p>También puedes utilizar el siguiente formulario para enviarnos un mensaje directamente:</p>
+    <form action="URL_DEL_SERVIDOR" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <h3>Horario de Atención</h3>
+    <p>Puedes contactarnos en los siguientes horarios:</p>
+
+    <ul>
+        <li>Lunes a Viernes: 6:00 AM - 12:00 PM</li>
+        <li>Sábado: 8:00 AM - 10:00 PM</li>
+        <li>Domingo 10:00 AM - 10:00 PM </li>
+    </ul>
+    
+    <p>¡Esperamos saber de ti pronto!</p>
+    
+    
+
+</body>
+</html>
